@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Projects</title>
+    <style>
+        .projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .project img {
+            max-width: 400px;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                max-width: 100%;
+            }
+
+            @media (max-width: 768px) {
+                .project img {
+                    max-width: 100%;
+                }
+            }
+
+        }
+
+        .section__cont {
+            min-height: 100vh;
+            max-width: var(--max-width);
+            margin: auto;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="home.html">Asif Muhammed</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="section__cont">
+            <!-- <div class="content">
+          <h1 class="title">
+            Contact Me!
+          </h1>
+          <p class="description">
+            Email: asifasi393@gmail.com<br>
+            Phone: +91 9633937832<br>
+            Place: Thiruvananthapuram, India
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/asif.c.lopez?mibextid=rS40aB7S9Ucbxw6v"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/asif_bin_saifudeen?igsh=NDB0YTA0bXIzMmk0"><i class="ri-instagram-fill"></i></a>
+            <a href="https://www.linkedin.com/in/asif-muhammed-294465225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://wa.me/9633937832"><i class="ri-whatsapp-fill"></i></a>
+          </div>
+        </div> -->
+            <div style="margin-top: 85px; color: #ae8d7b;">
+                <h1>Projects</h1>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <a href="https://github.com/AsifMuhammed00/price-calculator">
+                        <img src="assets/price-calculator.png" alt="Price calculator">
+                    </a>
+                    <h2>Price Calculator</h2>
+                    <p>
+                        "Designed to streamline price calculations
+                        for office tea time and beyond.
+                        Easily add products with prices, track quantities,
+                        and calculate total costs with just a few clicks. Simplify your
+                        expense management and enjoy seamless tea time gatherings with our intuitive and
+                        efficient solution."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
